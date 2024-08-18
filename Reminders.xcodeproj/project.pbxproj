@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42447C93C0D2E818AFE3DBA0 /* Pods_Reminders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1FBCF5E224F083C7A340BC /* Pods_Reminders.framework */; };
+		BE24CF2A28E8200D00E9850B /* RemindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE24CF2928E8200D00E9850B /* RemindersApp.swift */; };
+		BE24CF2E28E8200E00E9850B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE24CF2D28E8200E00E9850B /* Assets.xcassets */; };
+		BE24CF3128E8200E00E9850B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE24CF3028E8200E00E9850B /* Preview Assets.xcassets */; };
+		BE24CF3828E8205F00E9850B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE24CF3728E8205F00E9850B /* AppDelegate.swift */; };
+		BE24CF3C28E8248000E9850B /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE24CF3A28E8248000E9850B /* Document.swift */; };
+		BE24CF3D28E8248000E9850B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE24CF3B28E8248000E9850B /* Task.swift */; };
+		BE24CF4028E824B800E9850B /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE24CF3F28E824B800E9850B /* TaskRepository.swift */; };
+		BE24CF4528E824EF00E9850B /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE24CF4228E824EE00E9850B /* DocumentPicker.swift */; };
+		BE24CF4628E824EF00E9850B /* AllDocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE24CF4328E824EE00E9850B /* AllDocumentsView.swift */; };
+		BE24CF4728E824EF00E9850B /* FilePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE24CF4428E824EE00E9850B /* FilePreviewView.swift */; };
+		BE24CF4B28E8250900E9850B /* TaskListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE24CF4928E8250900E9850B /* TaskListVM.swift */; };
+		BE24CF4C28E8250900E9850B /* TaskCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE24CF4A28E8250900E9850B /* TaskCellVM.swift */; };
+		BE24CF4E28E8254000E9850B /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE24CF4D28E8254000E9850B /* TaskListView.swift */; };
+		BE49CB7629D9BCF300812A58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE49CB7529D9BCF300812A58 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D96CAACBDCC73B687A38A31 /* Pods-Reminders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reminders.debug.xcconfig"; path = "Target Support Files/Pods-Reminders/Pods-Reminders.debug.xcconfig"; sourceTree = "<group>"; };
+		782B74E9D253EEE1FBB57381 /* Pods-Reminders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reminders.release.xcconfig"; path = "Target Support Files/Pods-Reminders/Pods-Reminders.release.xcconfig"; sourceTree = "<group>"; };
+		BE24CF2628E8200D00E9850B /* Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE24CF2928E8200D00E9850B /* RemindersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersApp.swift; sourceTree = "<group>"; };
+		BE24CF2D28E8200E00E9850B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE24CF3028E8200E00E9850B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE24CF3728E8205F00E9850B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE24CF3A28E8248000E9850B /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		BE24CF3B28E8248000E9850B /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		BE24CF3F28E824B800E9850B /* TaskRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
+		BE24CF4228E824EE00E9850B /* DocumentPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
+		BE24CF4328E824EE00E9850B /* AllDocumentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllDocumentsView.swift; sourceTree = "<group>"; };
+		BE24CF4428E824EE00E9850B /* FilePreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilePreviewView.swift; sourceTree = "<group>"; };
+		BE24CF4928E8250900E9850B /* TaskListVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListVM.swift; sourceTree = "<group>"; };
+		BE24CF4A28E8250900E9850B /* TaskCellVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCellVM.swift; sourceTree = "<group>"; };
+		BE24CF4D28E8254000E9850B /* TaskListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		BE49CB7529D9BCF300812A58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FD1FBCF5E224F083C7A340BC /* Pods_Reminders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reminders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE24CF2328E8200D00E9850B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42447C93C0D2E818AFE3DBA0 /* Pods_Reminders.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70BF418E20548C4990C651EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD1FBCF5E224F083C7A340BC /* Pods_Reminders.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC06A92BAFF3C018A0442F17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D96CAACBDCC73B687A38A31 /* Pods-Reminders.debug.xcconfig */,
+				782B74E9D253EEE1FBB57381 /* Pods-Reminders.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE24CF1D28E8200D00E9850B = {
+			isa = PBXGroup;
+			children = (
+				BE49CB7529D9BCF300812A58 /* GoogleService-Info.plist */,
+				BE24CF2828E8200D00E9850B /* Reminders */,
+				BE24CF2728E8200D00E9850B /* Products */,
+				BC06A92BAFF3C018A0442F17 /* Pods */,
+				70BF418E20548C4990C651EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE24CF2728E8200D00E9850B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE24CF2628E8200D00E9850B /* Reminders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE24CF2828E8200D00E9850B /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				BE24CF4828E8250900E9850B /* ViewModels */,
+				BE24CF4128E824EE00E9850B /* Views */,
+				BE24CF3E28E824B800E9850B /* Repositories */,
+				BE24CF3928E8248000E9850B /* Models */,
+				BE24CF3728E8205F00E9850B /* AppDelegate.swift */,
+				BE24CF4D28E8254000E9850B /* TaskListView.swift */,
+				BE24CF2928E8200D00E9850B /* RemindersApp.swift */,
+				BE24CF2D28E8200E00E9850B /* Assets.xcassets */,
+				BE24CF2F28E8200E00E9850B /* Preview Content */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		BE24CF2F28E8200E00E9850B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE24CF3028E8200E00E9850B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE24CF3928E8248000E9850B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE24CF3A28E8248000E9850B /* Document.swift */,
+				BE24CF3B28E8248000E9850B /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE24CF3E28E824B800E9850B /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				BE24CF3F28E824B800E9850B /* TaskRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		BE24CF4128E824EE00E9850B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE24CF4228E824EE00E9850B /* DocumentPicker.swift */,
+				BE24CF4328E824EE00E9850B /* AllDocumentsView.swift */,
+				BE24CF4428E824EE00E9850B /* FilePreviewView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BE24CF4828E8250900E9850B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BE24CF4928E8250900E9850B /* TaskListVM.swift */,
+				BE24CF4A28E8250900E9850B /* TaskCellVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE24CF2528E8200D00E9850B /* Reminders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE24CF3428E8200E00E9850B /* Build configuration list for PBXNativeTarget "Reminders" */;
+			buildPhases = (
+				52489EDE759D3097A5691F2C /* [CP] Check Pods Manifest.lock */,
+				BE24CF2228E8200D00E9850B /* Sources */,
+				BE24CF2328E8200D00E9850B /* Frameworks */,
+				BE24CF2428E8200D00E9850B /* Resources */,
+				CCFB418DB269C27D1CB5F240 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reminders;
+			productName = Reminders;
+			productReference = BE24CF2628E8200D00E9850B /* Reminders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE24CF1E28E8200D00E9850B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BE24CF2528E8200D00E9850B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BE24CF2128E8200D00E9850B /* Build configuration list for PBXProject "Reminders" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE24CF1D28E8200D00E9850B;
+			productRefGroup = BE24CF2728E8200D00E9850B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE24CF2528E8200D00E9850B /* Reminders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE24CF2428E8200D00E9850B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE24CF3128E8200E00E9850B /* Preview Assets.xcassets in Resources */,
+				BE49CB7629D9BCF300812A58 /* GoogleService-Info.plist in Resources */,
+				BE24CF2E28E8200E00E9850B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52489EDE759D3097A5691F2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reminders-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCFB418DB269C27D1CB5F240 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reminders/Pods-Reminders-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reminders/Pods-Reminders-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reminders/Pods-Reminders-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE24CF2228E8200D00E9850B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE24CF4028E824B800E9850B /* TaskRepository.swift in Sources */,
+				BE24CF4C28E8250900E9850B /* TaskCellVM.swift in Sources */,
+				BE24CF3C28E8248000E9850B /* Document.swift in Sources */,
+				BE24CF3828E8205F00E9850B /* AppDelegate.swift in Sources */,
+				BE24CF3D28E8248000E9850B /* Task.swift in Sources */,
+				BE24CF4728E824EF00E9850B /* FilePreviewView.swift in Sources */,
+				BE24CF4528E824EF00E9850B /* DocumentPicker.swift in Sources */,
+				BE24CF2A28E8200D00E9850B /* RemindersApp.swift in Sources */,
+				BE24CF4628E824EF00E9850B /* AllDocumentsView.swift in Sources */,
+				BE24CF4B28E8250900E9850B /* TaskListVM.swift in Sources */,
+				BE24CF4E28E8254000E9850B /* TaskListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE24CF3228E8200E00E9850B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE24CF3328E8200E00E9850B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE24CF3528E8200E00E9850B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D96CAACBDCC73B687A38A31 /* Pods-Reminders.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Reminders/Preview Content\"";
+				DEVELOPMENT_TEAM = KJ4NQLSU4A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdityaI.RemindersFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE24CF3628E8200E00E9850B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782B74E9D253EEE1FBB57381 /* Pods-Reminders.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Reminders/Preview Content\"";
+				DEVELOPMENT_TEAM = KJ4NQLSU4A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdityaI.RemindersFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE24CF2128E8200D00E9850B /* Build configuration list for PBXProject "Reminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE24CF3228E8200E00E9850B /* Debug */,
+				BE24CF3328E8200E00E9850B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE24CF3428E8200E00E9850B /* Build configuration list for PBXNativeTarget "Reminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE24CF3528E8200E00E9850B /* Debug */,
+				BE24CF3628E8200E00E9850B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE24CF1E28E8200D00E9850B /* Project object */;
+}
